@@ -57,7 +57,7 @@ class LeetCodeProblemGenerator:
         if not languages:
             languages = ["python", "java", "javascript"]
 
-        prompt = f"""Generate a complete LeetCode-style problem with the following attributes:
+        prompt = f"""Generate a complete LeetCode-style problem that is NOT on LeetCode with the following attributes:
 - Difficulty: {difficulty}
 - Topic: {problem_type}
 {f"- Additional constraints: {constraints}" if constraints else ""}
