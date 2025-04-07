@@ -1,0 +1,5 @@
+# Ignore environment file
+.env
+
+# Ignore generated problems folder
+generated_problems/
